@@ -3,7 +3,7 @@
   flex-direction: row;
   background-color: #f8f5f688;
   background-image: url(/hero-image.png);
-  background-position: 40rem;
+  background-position: 90%;
   background-repeat: no-repeat;
   height: calc(100vh - 5.5rem);
   background-size: 50rem;
