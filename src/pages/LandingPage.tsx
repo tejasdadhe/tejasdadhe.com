@@ -1,4 +1,3 @@
-import React from "react";
 import Header from "../components/Header";
 import "../styles/landing-page.css";
 import { CodeXml, Cloud, BookPlus, MoveDown, MoveRight } from "lucide-react";

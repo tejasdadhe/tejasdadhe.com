@@ -1,4 +1,3 @@
-import React from "react";
 import type { CtaProps, CtaType } from "../types.ts";
 import "../styles/cta-button.css";
 

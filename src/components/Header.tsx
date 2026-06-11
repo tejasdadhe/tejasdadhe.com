@@ -1,4 +1,3 @@
-import React from "react";
 import CTAbutton from "./CTAbutton";
 import { MoveRight } from "lucide-react";
 import "../styles/header.css";
