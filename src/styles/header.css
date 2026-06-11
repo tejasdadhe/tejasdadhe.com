@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  height: 5.5rem;
+  border-bottom: 1px solid #ddd;
+  background-color: #f8f5f6;
+}
+
+.header_title {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.header-nav-bar {
+  display: flex;
+  font-weight: 700;
+  flex: 4;
+}
+
+.header-cta {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

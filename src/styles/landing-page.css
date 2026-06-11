@@ -1,0 +1,62 @@
+.tejas-dadhe {
+  display: flex;
+  flex-direction: row;
+  background-color: #f8f5f688;
+  background-image: url(/hero-image.png);
+  background-position: 40rem;
+  background-repeat: no-repeat;
+  height: calc(100vh - 5.5rem);
+  background-size: 50rem;
+}
+
+.introduction {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 5rem;
+  gap: 4em;
+}
+
+.introduction > p {
+  margin: unset;
+}
+
+.i-am {
+  font-size: 1.5rem;
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.features {
+  gap: 1.2rem;
+}
+
+.cta-container,
+.features,
+.feature-item {
+  display: flex;
+  flex-direction: row;
+}
+
+.feature-item {
+  gap: 0.7rem;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.feature-item > div {
+  background-color: #eeece8;
+  padding: 0.6rem 0.8rem;
+  border-radius: 10px;
+}
+
+.cta-container {
+  gap: 2em;
+}
+
