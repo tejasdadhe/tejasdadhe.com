@@ -1,9 +1,10 @@
+import type { ReactNode } from "react";
+
 export interface CtaProps {
-  title: String;
+  title: string;
   type: CtaType;
-  on_click?: Function;
-  icon: any;
+  on_click?: () => void;
+  icon: ReactNode;
 }
 
 export type CtaType = "primary" | "secondary" | "transparent";
-
